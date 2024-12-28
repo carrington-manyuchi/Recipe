@@ -19,7 +19,6 @@ struct RecipeView: View {
                         imageName: item.recipeImage,
                         recipeURL: item.recipeURL
                     )
-                    .navigationBarTitle("", displayMode: .inline)
                 } label: {
                     ListItemsView(
                         name: item.name,
